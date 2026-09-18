@@ -7,11 +7,11 @@
     "CA",
     "AU"
   ],
-  "dailyAllowedAds": 50,
-  "adRewardCredits": 300000,
-  "adRewardChangeAfterAds": 5,
-  "adRewardCreditsAfterChange": 300000,
-  "reviewPromptAfterAds": 100,
+  "dailyAllowedAds": 3,
+  "adRewardCredits": 20,
+  "adRewardChangeAfterAds": 10,
+  "adRewardCreditsAfterChange": 10,
+  "reviewPromptAfterAds": 10,
   "rateRewardCredits": 100,
   "reviews": [
     "Really good AI video generator. Easy to use and the results are impressive.",
