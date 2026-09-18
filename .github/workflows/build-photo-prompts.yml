@@ -1,0 +1,31 @@
+name: Build photo prompts JSON
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'photo-prompts.json.gz.b64'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode and validate JSON
+        run: |
+          base64 -d photo-prompts.json.gz.b64 | gzip -d > photo-prompts.json
+          python -m json.tool photo-prompts.json > /dev/null
+      - name: Commit generated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add photo-prompts.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Generate photo-prompts.json"
+          git push
