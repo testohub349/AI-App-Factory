@@ -1,0 +1,16 @@
+{
+  "masterSwitch": true,
+  "allowedCountries": [
+    "PK",
+    "GB",
+    "US",
+    "CA",
+    "AU"
+  ],
+  "dailyAllowedAds": 10,
+  "adRewardCredits": 50,
+  "adRewardChangeAfterAds": 5,
+  "adRewardCreditsAfterChange": 25,
+  "reviewPromptAfterAds": 5,
+  "feedbackRewardCredits": 100
+}
