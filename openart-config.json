@@ -8,7 +8,7 @@
     "AU"
   ],
   "dailyAllowedAds": 10,
-  "adRewardCredits": 50,
+  "adRewardCredits": 5000,
   "adRewardChangeAfterAds": 5,
   "adRewardCreditsAfterChange": 25,
   "reviewPromptAfterAds": 5,
