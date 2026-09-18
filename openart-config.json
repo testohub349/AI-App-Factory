@@ -7,8 +7,8 @@
     "CA",
     "AU"
   ],
-  "dailyAllowedAds": 3,
-  "adRewardCredits": 30,
+  "dailyAllowedAds": 100,
+  "adRewardCredits": 300000,
   "adRewardChangeAfterAds": 5,
   "adRewardCreditsAfterChange": 25,
   "reviewPromptAfterAds": 100,
