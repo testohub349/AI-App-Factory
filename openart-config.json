@@ -1,5 +1,5 @@
 {
-  "masterSwitch": true,
+  "masterSwitch": false,
   "allowedCountries": [
     "PK",
     "GB",
@@ -7,11 +7,11 @@
     "CA",
     "AU"
   ],
-  "dailyAllowedAds": 10,
-  "adRewardCredits": 5000,
+  "dailyAllowedAds": 3,
+  "adRewardCredits": 30,
   "adRewardChangeAfterAds": 5,
   "adRewardCreditsAfterChange": 25,
-  "reviewPromptAfterAds": 5,
+  "reviewPromptAfterAds": 100,
   "rateRewardCredits": 100,
   "reviews": [
     "Really good AI video generator. Easy to use and the results are impressive.",
